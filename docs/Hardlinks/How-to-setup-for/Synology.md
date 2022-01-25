@@ -327,14 +327,14 @@ sudo chmod -R a=,a+rX,u+w,g+w /volume1/data /volume1/docker
 ```
 
 !!! note
-    If you copy files from a different library into the newly created library, you need to rerun these commands. !!!
+    The two `chown` and `chmod` commands above will need to be rerun any time you copy files into `/volume1/data` from another media library !!!
 
 ------
 
 ## Run the Docker Compose
 
 !!! important
-    make sure you delete/remove all your existing dockers from the Docker GUI and also remove your native installs (in Package Center) of these applications !!!
+    Make sure you delete/remove all your existing dockers from the Docker GUI and also remove your native installs (in Package Center) of these applications !!!
     If you had previous installed apps, make a backup of their config folders.
 
 When you did all the above steps you only need to run the following commands:
